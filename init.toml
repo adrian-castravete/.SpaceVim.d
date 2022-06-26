@@ -74,8 +74,18 @@ name = "lang#kotlin"
 [[layers]]
 name = "lang#rst"
 
+[[layers]]
+name = "lang#lisp"
+
+[[layers]]
+name = "lang#fennel"
+
 #[[layers]]
 #name = "lang#typescript"
 
 [[layers]]
 name = "lang#extra"
+
+[[custom_plugins]]
+repo = "bhurlow/vim-parinfer"
+merged = false

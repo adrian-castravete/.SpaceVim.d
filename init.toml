@@ -44,6 +44,10 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
+name = "debug"
+debugger_plugin = "vimspector"
+
+[[layers]]
 name = "fzf"
 
 [[layers]]

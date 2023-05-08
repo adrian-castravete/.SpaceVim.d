@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "wombat256mod"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -27,6 +27,7 @@
     relativenumber = false
     max_column = 120
     fill_column_visible = 1
+    disabled_plugins = ['vim-startify']
 
 
 [[layers]]
@@ -49,6 +50,12 @@ debugger_plugin = "vimspector"
 
 [[layers]]
 name = "fzf"
+
+[[layers]]
+name = "sudo"
+
+[[layers]]
+name = "tmux"
 
 [[layers]]
 name = "checkers"
@@ -89,6 +96,10 @@ name = "lang#fennel"
 
 [[layers]]
 name = "lang#extra"
+
+[[custom_plugins]]
+repo = "junegunn/seoul256.vim"
+merged = false
 
 [[custom_plugins]]
 repo = "bhurlow/vim-parinfer"
